@@ -7,7 +7,7 @@ const router = Router();
 app.use(router);
 
 router.get("/", async (req, res) => {
-  return res.status(200).send({ status: "healthy" });
+  return res.status(200).send({ status: "healthy!" });
 });
 
 app.listen(process.env.APP_PORT, () => {
